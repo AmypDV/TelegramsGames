@@ -39,4 +39,5 @@ def write_pickle_db(players: dict):
 
 PLAYERS: dict[int, Player] = read_pickle_db()
 #PLAYERS: dict[int, Player] = {}
-print(PLAYERS)
+
+[print(player) for player in PLAYERS.values()]
